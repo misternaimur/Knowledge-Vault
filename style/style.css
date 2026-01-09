@@ -185,5 +185,48 @@
 
 
 
+.brain-section{
+    display: flex;
+    margin: 120px auto;
+    width: 93%;
+    gap: 60px;
+    max-width: 1600px;
+    background-color: #ffffff;
+}
+.brain-img{
+    border: none;
+    border-radius: 12px;
 
+}
+
+.brain-text-contain{
+    /* border: 1px solid black; */
+    width: 700px;
+    margin: 100px auto;
+
+}
+
+.text-point-section{
+    margin-top: 20px;
+}
+.text-point{
+    display: flex;
+    gap:6px;
+    margin-bottom: 16px;
+}
+.text-point p{
+    font-size: 16px;
+}
+.brain-tittle{
+    font-size: 38px;
+    line-height: auto;
+    margin-bottom: 16px;
+
+}
+
+.brain-text-contain .brain-info{
+    color: #627382;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
 
