@@ -68,7 +68,7 @@
 
 
 .hero-section{
-    background-image: url(/assets/hero-bg.png);
+    background-image: url(../assets/hero-bg.png);
     width:100%;
     max-width: 1600px;
     margin:0 auto;
@@ -203,7 +203,6 @@
     /* border: 1px solid black; */
     width: 700px;
     margin: 100px auto;
-
 }
 
 .text-point-section{
