@@ -131,6 +131,10 @@
     width: 15px;
 }
 
+#btn-3:hover{
+    background-color: #8b8f92;
+    border: 1px solid #ffffff;
+}
 
 .card-section{
     text-align: center;
