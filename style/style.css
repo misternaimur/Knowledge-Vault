@@ -60,10 +60,11 @@
     color: #627382;
 }
 .btn-1:hover{
-    border: 1px solid #000000;
-    color: #000000;
-    background-color: #ffffff;
+    border: none;
+    color: #F7F6F2;
+    background-color: #000000;
     cursor: pointer;
+    box-shadow: #959da513 0px 8px 24px;
 }
 
 
@@ -261,7 +262,11 @@
   justify-content: center;
   font-size: 18px;
   margin: 24px auto 16px;
-  
+}
+.cta-btn:hover{
+  border: 1px solid #000000;
+  color: #FFFFFF;
+  background-color: #000000;
 }
 
 .footer{
