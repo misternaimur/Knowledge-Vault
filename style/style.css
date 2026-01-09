@@ -69,6 +69,7 @@
 
 .hero-section{
     background-image: url(../assets/hero-bg.png);
+    background-color: #FFFFFF;
     width:100%;
     max-width: 1600px;
     margin:0 auto;
@@ -104,13 +105,15 @@
 }
 .hero-button{
     display: flex;
-    margin: 0px 560px 160px 560px;
-    gap:16px;
+    margin: 0px 440px 160px 440px;
+    justify-content: center;
+    gap: 16px;
 }
 .hero-button .btn-2{
     display: flex;
-    justify-items: center;
+    /* justify-items: center; */
     gap:10px;
+    box-shadow: #959da513 0px 8px 24px;
 }
 .btn-2:hover {
     border: 1px solid #ffffff;
@@ -187,8 +190,10 @@
 
 .brain-section{
     display: flex;
-    margin: 120px auto;
+    padding: 120px;
+    margin: 0px auto;
     width: 93%;
+    max-width: 1600px;
     gap: 60px;
     max-width: 1600px;
     background-color: #ffffff;
@@ -223,9 +228,38 @@
 
 }
 
-.brain-text-contain .brain-info{
+ .brain-info{
     color: #627382;
     line-height: 20px;
     margin-bottom: 16px;
 }
 
+.cta-contant{
+    justify-content: center;
+    background-color: #F7F6F2;
+    width: 93%;
+    max-width: 1600px;
+    margin:0px auto 80px;
+    border-radius: 12px;
+    text-align: center;
+    align-items: center;
+    padding: 80px auto;
+    height: 384px;
+    padding: 80px;
+
+}
+.cta-tittle{
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 16px;
+}
+.cta-btn{
+  display: flex;
+  /* justify-items: center; */
+  gap: 10px;
+  box-shadow: #959da513 0px 100px 24px;
+  justify-content: center;
+  font-size: 18px;
+  margin: 24px auto 16px;
+  
+}
