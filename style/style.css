@@ -263,3 +263,46 @@
   margin: 24px auto 16px;
   
 }
+
+.footer{
+    background-color: #000000;
+    color: #F7F6F2;
+    margin: 0px auto 0px;
+}
+.footer-main-contant{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1600px;
+    padding: 120px 120px 20px 120px; ; 
+}
+.footer-copy{
+    width: 100%;
+    max-width: 1600px;
+    text-align: center;
+    padding: 20px 120px 80px 120px;
+    }
+
+    .footer-copy p{
+        margin-top: 16px;
+    }
+
+    #hr-color
+    {
+        border: none;
+        height: 1px;
+        background-color: #8b8f92;
+    }
+
+.social-div{
+    margin-bottom :16px;
+    align-items: center;
+    margin:auto 0px;
+    gap: 16px;
+}
+.social-div p{
+    margin-bottom: 16px;
+}
+.social-icon{
+    gap:16px;
+}
