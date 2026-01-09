@@ -14,14 +14,13 @@
     box-sizing: border-box;
 }
 /*Share Style   */
-.btn{
-    width: 164px;
+.btn {
     color: #ffffff;
-    background-color: #30B868;
     border: none;
     border-radius: 4px;
     padding: 12px 16px;
     text-align: center;
+    background-color: #30B868;
 }
 
 #text-green{
@@ -78,6 +77,8 @@
 }
 
 .hero-popup{
+    display: flex;
+    gap: 6px;
     width: 229px;
     font-size: 16px;
     margin: 115px auto 16px;
@@ -101,3 +102,88 @@
     font-size: 16px;
     line-height: 24px;
 }
+.hero-button{
+    display: flex;
+    margin: 0px 560px 160px 560px;
+    gap:16px;
+}
+.hero-button .btn-2{
+    display: flex;
+    justify-items: center;
+    gap:10px;
+}
+.btn-2:hover {
+    border: 1px solid #ffffff;
+    color: white;
+    background: none;
+    cursor: pointer;
+}
+
+.hero-button #btn-3{
+    background: none;
+    border: 1px solid #ffffff;
+}
+.hero-button img{
+    width: 15px;
+}
+
+
+.card-section{
+    text-align: center;
+}
+.card-headline{
+    font-size: 48px;
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+.card-description{
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 44px;
+}
+.card-items{
+   display: flex;
+   justify-content: center;
+   gap: 24px;
+  
+}
+.card{
+    border: none;
+    background-color: #FFFFFF;
+    width: 322px;
+    padding: 24px;
+    gap: 16px;
+    box-sizing: border-box;
+    box-shadow:#959DA533 0px 8px 24px;
+    border-radius: 4px;
+}
+.card-icon{
+    margin: 59px auto 16px auto ;
+    background-color: #F95555;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.card-tittle{
+    font-size: 24px;
+    width: 274px;
+    margin: 0px auto 16px auto;
+    font-weight: 600px;
+    text-align: center;
+
+}
+.card-info{
+    font-size: 14px;
+    width: 274px;
+    color: #627382;
+    line-height: 20px;
+}
+
+
+
+
+
